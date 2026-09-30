@@ -1,6 +1,6 @@
 cask "mdreader" do
-  version "1.0.1"
-  sha256 "2888f16b6f54fd6e3ee61d36b18a2701738bf112d6022b95aa245a5e0ba35f57"
+  version "1.0.2"
+  sha256 "c5ac5ea8929ffaaeb2958d196a5aeeaf8a5f642a68d8ee0408c4db3e84942c06"
 
   url "https://github.com/rboundi/mdreader/releases/download/v#{version}/MDReader-#{version}.zip"
   name "MDReader"
@@ -13,6 +13,11 @@ cask "mdreader" do
   binary "#{appdir}/MDReader.app/Contents/Resources/mdr"
 
   zap trash: [
+    "~/Library/Caches/com.movinapp.mdreader.macos",
+    "~/Library/HTTPStorages/com.movinapp.mdreader.macos",
+    "~/Library/Preferences/com.movinapp.mdreader.macos.plist",
+    "~/Library/Saved Application State/com.movinapp.mdreader.macos.savedState",
+    "~/Library/WebKit/com.movinapp.mdreader.macos",
     "~/Library/Caches/io.github.rboundi.mdreader",
     "~/Library/HTTPStorages/io.github.rboundi.mdreader",
     "~/Library/Preferences/io.github.rboundi.mdreader.plist",
