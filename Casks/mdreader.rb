@@ -1,6 +1,6 @@
 cask "mdreader" do
-  version "1.0.0"
-  sha256 "26d2de1816f94dd2b8e4bb9a596aa08d89a17991a23505e13511eb77bede23c0"
+  version "1.0.1"
+  sha256 "2888f16b6f54fd6e3ee61d36b18a2701738bf112d6022b95aa245a5e0ba35f57"
 
   url "https://github.com/rboundi/mdreader/releases/download/v#{version}/MDReader-#{version}.zip"
   name "MDReader"
@@ -19,9 +19,4 @@ cask "mdreader" do
     "~/Library/Saved Application State/io.github.rboundi.mdreader.savedState",
     "~/Library/WebKit/io.github.rboundi.mdreader",
   ]
-
-  caveats <<~EOS
-    MDReader is not notarized. If macOS refuses to open it, run:
-      xattr -dr com.apple.quarantine #{appdir}/MDReader.app
-  EOS
 end
