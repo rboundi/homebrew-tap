@@ -1,5 +1,3 @@
-# Template for the cask in github.com/rboundi/homebrew-tap (Casks/mdreader.rb).
-# The release workflow fills in version and sha256 automatically.
 cask "mdreader" do
   version "1.0.0"
   sha256 "26d2de1816f94dd2b8e4bb9a596aa08d89a17991a23505e13511eb77bede23c0"
