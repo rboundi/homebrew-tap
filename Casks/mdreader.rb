@@ -1,6 +1,6 @@
 cask "mdreader" do
-  version "1.5.1"
-  sha256 "aeed2de91703e2b27bfb8542c80e9ab36d3fe0894dbca8ba86d7674fe1535a89"
+  version "1.5.2"
+  sha256 "aa042a6682529eb9d6236344bcb0f512418b683b9da697d0176a2102e24f639a"
 
   url "https://github.com/rboundi/mdreader/releases/download/v#{version}/MDReader-#{version}.zip"
   name "MDReader"
