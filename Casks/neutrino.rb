@@ -1,6 +1,6 @@
 cask "neutrino" do
-  version "1.4.0"
-  sha256 "270d793365c0b66f507af31251960259ea75449743f2b8c76131b9c67f7af2ec"
+  version "1.5.0"
+  sha256 "2fa5cfdde86fa4fe281f5a1d3d3d263a73d80390bf006270fdf9c9db690199b9"
 
   url "https://github.com/rboundi/neutrino/releases/download/v#{version}/Neutrino-#{version}.zip"
   name "Neutrino"
